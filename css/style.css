@@ -1,0 +1,62 @@
+* {
+  box-sizing: border-box;
+}
+.gradient-background {
+  background: linear-gradient(300deg, #00bfff, #ff4c68, #ef8172);
+  background-size: 180% 180%;
+  animation: gradient-animation 18s ease infinite;
+}
+
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+#title {
+  /* height: 99.6vh; */
+  padding-bottom: 0;
+}
+.iphone {
+  padding-bottom: 0;
+}
+.icon-square {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 0.75rem;
+  background-color: rgb(233, 233, 233);
+}
+
+.profile-img {
+  height: 100px;
+  border-radius: 50%;
+}
+
+#testimonial {
+  background-color: rgb(250, 250, 250);
+  width: 100%;
+}
+.img-container {
+  display: flex;
+  height: 30px;
+}
+.dog-img {
+  height: 100px;
+  border-radius: 50%;
+}
+#footer {
+  border: none;
+  margin-bottom: 0;
+}
+.nav-item {
+  color: rgb(51, 52, 54);
+}
+.nav-link {
+  text-decoration: none;
+  color: white;
+}
